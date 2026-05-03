@@ -1,0 +1,24 @@
+
+code --version
+1.117.0
+10c8e557c8b9f9ed0a87f61f1c9a44bde731c409
+x64
+
+git --version
+git version 2.53.0
+
+node --version
+v24.14.1
+
+npm --version
+11.11.0
+
+
+Task 2
+------
+
+git config --global user.name
+sirsona
+
+git config --global user.email
+swaleh489@gmail.com
