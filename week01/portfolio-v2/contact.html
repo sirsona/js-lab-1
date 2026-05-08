@@ -5,5 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact | Mohamed</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Contact Me</h1>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Contact Form -->
+      <section>
+        <h2>Send a Message</h2>
+
+        <form>
+          <!-- Name -->
+          <label for="name">Name:</label>
+          <br />
+          <input type="text" id="name" name="name" required />
+          <br /><br />
+
+          <!-- Email -->
+          <label for="email">Email:</label>
+          <br />
+          <input type="email" id="email" name="email" required />
+          <br /><br />
+
+          <!-- Subject Dropdown -->
+          <label for="subject">Subject:</label>
+          <br />
+          <select id="subject" name="subject">
+            <option value="general">General Question</option>
+            <option value="project">Project Inquiry</option>
+            <option value="feedback">Feedback</option>
+          </select>
+          <br /><br />
+
+          <!-- Radio Buttons -->
+          <p>Preferred Contact Method:</p>
+
+          <input
+            type="radio"
+            id="email-contact"
+            name="contact-method"
+            value="email"
+          />
+          <label for="email-contact">Email</label>
+
+          <input
+            type="radio"
+            id="phone-contact"
+            name="contact-method"
+            value="phone"
+          />
+          <label for="phone-contact">Phone</label>
+
+          <br /><br />
+
+          <!-- Textarea -->
+          <label for="message">Message:</label>
+          <br />
+          <textarea id="message" name="message" rows="5" cols="30"></textarea>
+
+          <br /><br />
+
+          <!-- Submit Button -->
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <!-- FAQ Section -->
+      <section>
+        <h2>FAQ</h2>
+
+        <details>
+          <summary>What technologies are you learning?</summary>
+          <p>
+            I am learning HTML, CSS, JavaScript, React, and backend development.
+          </p>
+        </details>
+
+        <details>
+          <summary>Are you available for freelance work?</summary>
+          <p>
+            Currently, I am focused on learning and building personal projects.
+          </p>
+        </details>
+
+        <details>
+          <summary>Why are you learning web development?</summary>
+          <p>
+            I enjoy building useful applications and solving real-world problems
+            with code.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Mohamed</p>
+    </footer>
+  </body>
 </html>
