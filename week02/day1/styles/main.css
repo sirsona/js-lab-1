@@ -1,0 +1,44 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-accent: #2563eb;
+  --color-muted: #6b7280;
+  --font-body: "Georgia", serif;
+  --font-heading: "Helvetica", sans-serif;
+  --spacing-unit: 8px;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* margin = space outside the border; padding = space inside the border */
+.post-card {
+  max-width: 600px;
+  padding: 16px;
+
+  background-color: white;
+  border-radius: 8px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  margin-inline: auto;
+}
+
+h1 {
+  font-family: var(--font-heading);
+}
+
+.main {
+  padding-top: 80px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+#footer {
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid #1e293b;
+  color: #94a3b8;
+}
